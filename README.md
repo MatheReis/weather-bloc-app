@@ -1,16 +1,23 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+## Description
 
-## Getting Started
+A simple app to display weather information for a specific city.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Display current temperature, city name, and country.
+- Weather icon corresponding to the temperature.
+- Search weather for different cities.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/): ^3.0.0
+- [Dio](https://pub.dev/packages/dio): ^8.1.0
+- [Provider](https://pub.dev/packages/provider): ^6.0.5
+- [Bloc](https://pub.dev/packages/bloc): ^6.0.5
+- [Flutter Bloc](https://pub.dev/packages/flutter_bloc): ^8.1.0
+
+## Execute
+```
+flutter clean && flutter pub get
